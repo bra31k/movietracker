@@ -1,6 +1,6 @@
 import csv, sys, os
 
-project_dir = "movietracker"
+project_dir = "frontend"
 
 sys.path.append(project_dir)
 
