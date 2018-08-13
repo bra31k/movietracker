@@ -1,11 +1,14 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <h1>Movie Tracker</h1>
+      <HelloWorld/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default {
   name: 'App',

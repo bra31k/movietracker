@@ -7,6 +7,6 @@ from .serializers import FilmSerializer
 
 
 class FilmViewSet(viewsets.ModelViewSet):
-    queryset = Film.objects.all().order_by('-release_date')[1:9]
+    queryset = Film.objects.all().order_by('-release_date')[1:11]
     serializer_class = FilmSerializer
 # Create your views here.
